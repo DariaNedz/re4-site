@@ -1,0 +1,132 @@
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0b0b0b;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+body.light {
+    background:#f4f4f4;
+    color:#111;
+}
+
+body.light h1 {
+    color: #b00000;
+    text-shadow: none;
+}
+
+body.light h2 {
+    color: #222;
+}
+
+body.light p {
+    color: #222;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 8px 14px;
+    background: #b00000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+body.light #theme-toggle {
+    background: #555;
+}
+
+#header {
+    position:absolute;
+    top:40px;
+    text-align:center;
+    width:100%;
+}
+
+#header h1 {
+    font-size:42px;
+    letter-spacing:3px;
+    color:#ff2a2a;
+    text-shadow:
+        0 0 10px #ff0000,
+        0 0 20px #800000;
+    margin:0;
+}
+
+#header h2 {
+    font-size:18px;
+    letter-spacing:4px;
+    color:#bbb;
+    margin-top:8px;
+    text-transform:uppercase;
+}
+
+.container {
+    margin-top: 100px;
+    width: 520px;
+    background: #111;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(255,0,0,0.4);
+    border: 1px solid #400;
+}
+
+body.light .container {
+    background: white;
+    color: #111;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #500;
+    box-shadow: 0 0 15px rgba(255,0,0,0.4);
+}
+
+p {
+    margin-top: 20px;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background: #b00000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+body.light button {
+    background:#c62828;
+    color:white;
+}
+
+button:hover {
+    background: #ff0000;
+    transform: scale(1.1);
+}
