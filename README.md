@@ -32,11 +32,11 @@ All character data is stored in a JavaScript array.
 
 ### Light theme
 
-<img src="screenshots/light-theme.png" width="500">
+<img src="screenshots/light-theme.png" width="600">
 
 ### Dark theme
 
-<img src="screenshots/dark-theme.png" width="500">
+<img src="screenshots/dark-theme.png" width="600">
 
 ---
 
